@@ -1,0 +1,15 @@
+Prompt-01:
+Como engenheiro de Software crie duas aplicações em Java 11 e Maven que se comuniquem por mensagem através do Apache Kafka. A aplicação Producer nomada ProducerDenn envia para o tópico um Cliente com os atributos Nome tipo string, Nascimento tipo Data, Salario tipo Double, serializando devidamente com padrão Avro e uso do Schema Registry. A aplicação Consumer nomeada ConsumerDenn pega o cliente do tópico e imprime seu conteúdo no console deserializando devidamente e usando o Schema Registry. Crie um Leiame com os passos necessarios para executar esta solucao. O Docker sera utilizando nesta solução para uso do Kafka, Kafdrop e Schema Registry. O formato da saída deste prompt é um arquivo.zip com todos os artefatos.
+
+
+
+
+Prompt-02:
+Como engenheiro de Software cria documento de visão geral dos seguintes conceitos relativos ao Apache Kafka: Arquitetura Orientada a Eventos, Plataforma de Stream, Kafka, Kafdrop, Broker,Topico, Partição, Schema Registry, Avro, Mensagem, Producer, Consumer, Consumer Groups.
+
+ 
+
+ 
+
+
+

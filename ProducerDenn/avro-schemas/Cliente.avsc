@@ -1,0 +1,11 @@
+
+{
+  "type": "record",
+  "name": "Cliente",
+  "namespace": "com.denn.avro",
+  "fields": [
+    {"name": "nome", "type": "string"},
+    {"name": "nascimento", "type": {"type": "int", "logicalType": "date"}},
+    {"name": "salario", "type": "double"}
+  ]
+}
